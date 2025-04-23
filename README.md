@@ -4,7 +4,7 @@ This project aims to segment credit card customers using **K-Means clustering** 
 
 ---
 
-## 📊 Project Workflow
+## Project Workflow
 
 ### 1. **Data Preprocessing**
 - Loaded and cleaned credit card customer data, including variables such as **balance, purchases, credit limit, tenure, and payment behavior**.
@@ -17,18 +17,14 @@ This project aims to segment credit card customers using **K-Means clustering** 
 - Analyzed cluster characteristics by aggregating feature statistics for each group.
 
 ### 3. **Cluster Selection for Deeper Analysis**
-- Selected **Cluster 5** (KM5_5) based on its distinct behavioral traits:
-  - Moderate average balance (~$1,071)
-  - Above-average purchases (~$1,368)
-  - Medium credit limits (~$4.5K)
-  - Balanced limit usage (~29%)
+- Selected **Cluster 5** (KM5_5)
  
 ---
 
-## 📈 Power BI Dashboard Highlights (KM5_5 Analysis)
+## Power BI Dashboard Highlights (KM5_5 Analysis)
 
 The dashboard focuses on profiling the customers in the selected cluster (Cluster 5):
-### 🔍 Key Insights:
+### Key Insights:
 - **Demographics**:
   - Gender Split: 69% Female, 31% Male
   - Most customers are **Married (86%)**
@@ -56,7 +52,7 @@ The dashboard focuses on profiling the customers in the selected cluster (Cluste
 
 ---
 
-## 📁 Project Files
+## Project Files
 - `Credit_Card_Segmentation_KMeans.ipynb`: Jupyter notebook for the full clustering implementation. There are more analyses on the data in there, along with the flow of statistical analysis of the dataset, running the model, and selecting a cluster.
 - `KM5_5_Analysis.pbix`: Power BI dashboard for in-depth analysis of the selected cluster
 - `Cluster Profile.csv`: The output of all the segments with their characteristics and features
